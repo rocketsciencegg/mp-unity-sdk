@@ -1,0 +1,43 @@
+{
+    "name": "RocketScience.Multiplay.Matchmaker.Tests",
+    "rootNamespace": "",
+    "references": [
+        "UnityEngine.TestRunner",
+        "Unity.Services.Core",
+        "Unity.Services.Core.Internal",
+        "RocketScience.Multiplay",
+        "RocketScience.Multiplay.Tests",
+        "Unity.Services.Matchmaker"
+    ],
+    "includePlatforms": [
+        "Editor",
+        "LinuxStandalone64",
+        "macOSStandalone",
+        "WindowsStandalone32",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll",
+        "Moq.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [
+        {
+            "name": "nuget.moq",
+            "expression": "1.0.0",
+            "define": "NUGET_MOQ_AVAILABLE"
+        },
+        {
+            "name": "com.unity.services.matchmaker",
+            "expression": "",
+            "define": "UGS_MATCHMAKER_AVAILABLE"
+        }
+    ],
+    "noEngineReferences": false
+}
