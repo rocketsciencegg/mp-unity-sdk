@@ -1,0 +1,52 @@
+{
+    "name": "Unity.Services.Qos.Tests",
+    "rootNamespace": "",
+    "references": [
+        "UnityEngine.TestRunner",
+        "Unity.Services.Core",
+        "Unity.Services.Core.Internal",
+        "Unity.Services.Core.TestUtils",
+        "Unity.Collections",
+        "RocketScience.Services.QoS"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Moq.dll",
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [
+        {
+            "name": "nuget.moq",
+            "expression": "1.0.0",
+            "define": "NUGET_MOQ_AVAILABLE"
+        },
+        {
+            "name": "Unity",
+            "expression": "[2020.3.34f1,2021.0)",
+            "define": "UGS_QOS_SUPPORTED"
+        },
+        {
+            "name": "Unity",
+            "expression": "[2021.3.2f1,2022.0)",
+            "define": "UGS_QOS_SUPPORTED"
+        },
+        {
+            "name": "Unity",
+            "expression": "[2022.1.0f1,2022.2)",
+            "define": "UGS_QOS_SUPPORTED"
+        },
+        {
+            "name": "Unity",
+            "expression": "2022.2.0a10",
+            "define": "UGS_QOS_SUPPORTED"
+        }
+    ],
+    "noEngineReferences": false
+}

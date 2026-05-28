@@ -1,0 +1,8 @@
+{
+    "createSeparatePackage": true,
+    "dependencies": {
+      "nuget.moq": "1.0.0",
+      "com.unity.services.core-test-utilities": "1.13.0"
+    }
+}
+

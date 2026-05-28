@@ -1,0 +1,38 @@
+{
+    "name": "RocketScience.Services.Multiplay.Tests.PlayMode",
+    "rootNamespace": "",
+    "references": [
+        "UnityEngine.TestRunner",
+        "Unity.Services.Core",
+        "Unity.Services.Core.Internal",
+        "RocketScience.Services.Multiplay",
+        "RocketScience.Services.Multiplay.Tests",
+        "RocketScience.Services.Multiplay.Wire.Internal"
+    ],
+    "includePlatforms": [
+        "Editor",
+        "LinuxStandalone64",
+        "macOSStandalone",
+        "WindowsStandalone32",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll",
+        "Moq.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [
+        {
+            "name": "nuget.moq",
+            "expression": "1.0.0",
+            "define": "NUGET_MOQ_AVAILABLE"
+        }
+    ],
+    "noEngineReferences": false
+}
